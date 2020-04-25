@@ -3,6 +3,7 @@ html {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100%;
 }
 
 @font-face {
@@ -169,6 +170,22 @@ body {
   width: 80%;
 }
 
+.offer {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.footer__container {
+  background-color: #00252e;
+  margin-top: -34px;
+  color: #fff;
+  font-weight: 500;
+}
+
+section {
+  width: 100%;
+}
+
 .section-top-1 {
   content: url("../images/bg-section-top-mobile-1.svg");
   width: 100%;
@@ -187,6 +204,10 @@ body {
 .section-bottom-2 {
   content: url("../images/bg-section-bottom-mobile-2.svg ");
   width: 100%;
+}
+
+.footer-section {
+  content: url("../images/bg-footer-top-mobile.svg");
 }
 
 .illustration {
@@ -293,6 +314,9 @@ body {
   .illustration {
     width: 30%;
     margin-right: 100px;
+  }
+  .footer-section {
+    content: url("../images/bg-footer-top-desktop.svg");
   }
 }
 
