@@ -1,0 +1,142 @@
+.section-top-1 {
+    content: url("../images/bg-section-top-mobile-1.svg");
+    width: 100%;
+} 
+
+.section-top-2 {
+    content: url("../images/bg-section-top-mobile-2.svg");
+    width: 100%;
+} 
+
+
+.section-bottom-1 {
+    content: url("../images/bg-section-bottom-mobile-1.svg");
+    width: 100%;
+} 
+
+.section-bottom-2 {
+    content: url("../images/bg-section-bottom-mobile-2.svg ");
+    width: 100%;
+}
+
+.illustration {
+    width: 50%;
+}
+
+@media screen and (max-width: 320px) {
+    .site-logo   {
+        width: 120px;
+    }
+
+    .header-btn {
+        padding: 4px;
+    }
+
+    .offer-btn {
+        width: 190px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .intro {
+        width: 70%;
+        margin: auto;
+    }
+
+    .status {
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__content {
+            margin-bottom: 0px;
+            margin: 40px auto;
+        }
+        &__content:first-child{
+            text-align: none;
+            margin-right: 100px;
+        }
+    }
+
+    .section-top-1 {
+        content:  url("../images/bg-section-top-desktop-1.svg");
+        width: 100%;
+    } 
+    
+    .section-top-2 {
+        content: url("../images/bg-section-top-desktop-2.svg");
+        width: 100%;
+    } 
+    
+    
+    .section-bottom-1 {
+        content: url("../images/bg-section-bottom-desktop-1.svg");
+        width: 100%;
+    } 
+    
+    .section-bottom-2 {
+        content: url("../images/bg-section-bottom-desktop-2.svg");
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        background-color: $pale-blue;
+        text-align: center;
+        align-items: center;
+        margin-top: -8px;
+        align-content: space-between;
+    
+        &__text {
+            width: 50%;
+            margin: 0 80px;
+            text-align: left;
+        }
+    }
+
+    .content--no-bg {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        text-align: center;
+        align-items: center;
+        margin: 88px 0;
+        align-content: space-between;
+    
+        &__text {
+            width: 50%;
+            margin: 0 80px;
+            text-align: left;
+        }
+    }
+
+    .illustration {
+        width: 30%;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .site-logo {
+        width: 180px;
+        margin-left: 40px;
+    }
+
+    .header-btn {
+        margin-right: 40px;
+    }
+
+
+    .mockup-img {
+        width: 60%;
+    }
+
+    .intro {
+        width: 60%;
+        margin: auto;
+    }
+
+}

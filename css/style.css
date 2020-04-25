@@ -1,1 +1,315 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-family: Open-Sans;
+}
+
+@font-face {
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: Poppins;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open-Sans;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.heading {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.header {
+  display: inline-block;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.site-logo {
+  width: 150px;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.header-btn {
+  background-color: #ff52bf;
+  padding: 6px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  float: right;
+  background-color: #fff;
+  color: #ff52bf;
+  border-radius: 1.5rem;
+  margin-top: -7px;
+  border: 1px solid #ff52bf;
+  width: 88px;
+  margin-right: 5px;
+}
+
+.intro {
+  text-align: center;
+  padding: 80px 8px;
+  width: 90%;
+  margin: auto;
+}
+
+.offer-btn {
+  background-color: #ff52bf;
+  padding: 6px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  padding: 20px;
+  width: 300px;
+  border-radius: 1.7rem;
+}
+
+.intro-img {
+  padding: 30px 8px;
+  text-align: center;
+}
+
+.mockup {
+  text-align: center;
+}
+
+.mockup-img {
+  width: 90%;
+}
+
+.status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.status__content {
+  text-align: none;
+  margin-bottom: 90px;
+  text-align: left;
+}
+
+.status__img {
+  width: 40px;
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.curved-section-1 {
+  width: 100%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: #f5faff;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -8px;
+  padding-top: 40px;
+}
+
+.content__text {
+  width: 60%;
+  padding: 20px 0;
+}
+
+.content--no-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 88px 0;
+}
+
+.content--no-bg__text {
+  width: 80%;
+}
+
+.section-top-1 {
+  content: url("../images/bg-section-top-mobile-1.svg");
+  width: 100%;
+}
+
+.section-top-2 {
+  content: url("../images/bg-section-top-mobile-2.svg");
+  width: 100%;
+}
+
+.section-bottom-1 {
+  content: url("../images/bg-section-bottom-mobile-1.svg");
+  width: 100%;
+}
+
+.section-bottom-2 {
+  content: url("../images/bg-section-bottom-mobile-2.svg ");
+  width: 100%;
+}
+
+.illustration {
+  width: 50%;
+}
+
+@media screen and (max-width: 320px) {
+  .site-logo {
+    width: 120px;
+  }
+  .header-btn {
+    padding: 4px;
+  }
+  .offer-btn {
+    width: 190px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .intro {
+    width: 70%;
+    margin: auto;
+  }
+  .status {
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .status__content {
+    margin-bottom: 0px;
+    margin: 40px auto;
+  }
+  .status__content:first-child {
+    text-align: none;
+    margin-right: 100px;
+  }
+  .section-top-1 {
+    content: url("../images/bg-section-top-desktop-1.svg");
+    width: 100%;
+  }
+  .section-top-2 {
+    content: url("../images/bg-section-top-desktop-2.svg");
+    width: 100%;
+  }
+  .section-bottom-1 {
+    content: url("../images/bg-section-bottom-desktop-1.svg");
+    width: 100%;
+  }
+  .section-bottom-2 {
+    content: url("../images/bg-section-bottom-desktop-2.svg");
+    width: 100%;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    background-color: #f5faff;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -8px;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .content__text {
+    width: 50%;
+    margin: 0 80px;
+    text-align: left;
+  }
+  .content--no-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 88px 0;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .content--no-bg__text {
+    width: 50%;
+    margin: 0 80px;
+    text-align: left;
+  }
+  .illustration {
+    width: 30%;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .site-logo {
+    width: 180px;
+    margin-left: 40px;
+  }
+  .header-btn {
+    margin-right: 40px;
+  }
+  .mockup-img {
+    width: 60%;
+  }
+  .intro {
+    width: 60%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

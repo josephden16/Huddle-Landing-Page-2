@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// color settings
+$primary-color: hsl(322, 100%, 66%);
+$dark-cyan: hsl(192, 100%, 9%);
+$pale-blue: hsl(207, 100%, 98%);
+
+// font settings
+$font-weight-1: 400;
+$font-weight-2: 600;
+$font-weight-3: 700;
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: Open-Sans;
+}
+
+@font-face {
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-family: Poppins;
+}
+
+@function set-font-color($bg-color) {
+    @if (lightness($bg-color) > 40%) {
+        @return rgba(0,0,0, 0.9);
+    } @else {
+        @return #fff;
+    }
+}
