@@ -39,10 +39,15 @@
     .offer-btn {
         width: 190px;
     }
+
+    .logo-name {
+        font-size: 2.7rem;
+        padding-left: 5px;
+    }
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 838px) {
 
     .intro {
         width: 70%;
@@ -125,6 +130,43 @@
     .footer-section {
         content: url("../images/bg-footer-top-desktop.svg");
     }
+
+    .footer-content {
+        background-color: $dark-cyan;
+        margin-top: -7px;
+        color: #fff;
+        font-weight: 500;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        .social {
+            width: 70%;
+            margin-right: 100px;
+        }
+
+        .newsletter {
+            margin-top: 10px;
+            
+        }
+
+        .input-container {
+            display: inline;
+            text-align: center;
+
+            #email-box {
+                width: 260px;
+            }
+
+            .subscribe-btn {
+                width: 120px;
+                padding: 10px;
+                margin-left: 40px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -145,6 +187,10 @@
     .intro {
         width: 60%;
         margin: auto;
+    }
+
+    #email-box {
+        width: 380px;
     }
 
 }

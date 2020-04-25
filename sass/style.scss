@@ -132,19 +132,66 @@ body {
 
 .offer {
     text-align: center;
-    margin: 60px 0;
+    margin: 100px 0;
 }
 
-.footer__container {
+.footer-content {
     background-color: $dark-cyan;
-    margin-top: -34px;
+    margin-top: -7px;
     color: #fff;
     font-weight: 500;
-
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-section {
-    width: 100%;
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+#email-box {
+    width: 99%;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.subscribe-btn {
+    @include pink-btn();
+    border-radius: 3px;
+    width: 90px;
+    margin-top: 12px;
+    padding: 8px;
+    align-self: flex-end;
+}
+
+
+
+.social {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.logo-name {
+    font-size: 3.2rem;
+    padding-left: 5px;
+}
+
+.social-icons {
+    padding: 18px 16px 8px 0;
+}
+
+.attribution {
+    background-color: $dark-cyan;
+    margin: -10px 0 0 0;
+    padding: 8px;
+    color: #fff;
+    font-family: Poppins;
+}
+
 // media queries
 @import 'media';
