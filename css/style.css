@@ -4,6 +4,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -21,6 +22,7 @@ body {
   padding: 0;
   font-family: Open-Sans;
   color: rgba(0, 0, 0, 0.88);
+  overflow-x: hidden;
 }
 
 .heading {

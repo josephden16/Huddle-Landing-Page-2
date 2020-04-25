@@ -6,6 +6,8 @@ body {
     padding: 0;
     font-family: Open-Sans;
     color: rgba(0,0,0, 0.88);
+    overflow-x: hidden;
+
 }
 
 @mixin pink-btn {
